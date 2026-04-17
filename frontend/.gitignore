@@ -1,0 +1,24 @@
+# Global
+.DS_Store
+.env
+*.log
+
+# Flutter
+flutter_export_environment.sh
+
+# Build
+build/
+dist/
+*.apk
+*.ipa
+*.app
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db

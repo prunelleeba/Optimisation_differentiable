@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# 🚀 COMMANDES ESSENTIELLES - Optimisation Différentiable
+# Copier-coller les commandes selon votre besoin
+
+echo "📋 Commandes Essentielles"
+echo "========================="
+echo ""
+echo "BACKEND - Déploiement Local:"
+echo "  cd backend && pip install -r requirements.txt && uvicorn main:app --reload"
+echo ""
+echo "BACKEND - Tests API:"
+echo "  ./test_local.sh"
+echo ""
+echo "FRONTEND - Installation dépendances:"
+echo "  cd frontend && flutter pub get"
+echo ""
+echo "FRONTEND - Run sur émulateur/téléphone:"
+echo "  cd frontend && flutter run"
+echo ""
+echo "FRONTEND - Build APK Release:"
+echo "  cd frontend && flutter build apk --release"
+echo ""
+echo "FRONTEND - Install sur téléphone USB:"
+echo "  cd frontend && flutter install"
+echo ""
+echo "CONFIGURATION - Mettre à jour URL backend:"
+echo "  ./configure_backend_url.sh"
+echo ""
+echo "SETUP - Assistant interactif complet:"
+echo "  ./setup.sh"
+echo ""
+echo "DÉPLOIEMENT - Instructions Render:"
+echo "  ./DEPLOY_RENDER.sh"
+echo ""
+
+# Afficher les résultats disponibles
+echo "📂 Fichiers utiles:"
+echo "  • QUICK_START.md (👈 Commencer ici!)"
+echo "  • DEPLOYMENT.md (Détails complets)"
+echo "  • EXAMPLES.md (100+ exemples de fonctions)"
+echo "  • PROJECT_STRUCTURE.md (Architecture)"
+echo ""
